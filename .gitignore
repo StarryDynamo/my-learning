@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except the microlearning content
+!Microlearning/
+!Microlearning/**
+!learning-tracker.json
+!.gitignore
+
+# Obsidian config (ignore)
+.obsidian/
