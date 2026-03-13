@@ -1,0 +1,63 @@
+name: Daily Microlearning
+
+on:
+  schedule:
+    - cron: '0 20 * * *' # 7:00 AM AEDT (Melbourne UTC+11)
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Generation mode
+        required: false
+        default: daily
+        type: choice
+        options:
+          - daily
+          - weekly
+      topic:
+        description: Override topic (daily mode only)
+        required: false
+        default: auto
+        type: choice
+        options:
+          - auto
+          - Learning Science
+          - Behavioural Economics
+          - Complexity Theory
+          - AI Management
+          - Strategy
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate microlearning
+        id: generate
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODE: ${{ inputs.mode || 'daily' }}
+          TOPIC_OVERRIDE: ${{ inputs.topic || 'auto' }}
+        run: python generate.py
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🧠 ${{ steps.generate.outputs.topic }}: ${{ steps.generate.outputs.concept }}"
+          file_pattern: "Microlearning/** learning-tracker.json"

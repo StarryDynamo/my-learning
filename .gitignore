@@ -1,11 +1,17 @@
 # Ignore everything
 *
 
-# Except the microlearning content
+# Except the microlearning content and automation
 !Microlearning/
 !Microlearning/**
 !learning-tracker.json
+!generate.py
+!config.json
+!requirements.txt
+!README.md
 !.gitignore
+!.github/
+!.github/**
 
 # Obsidian config (ignore)
 .obsidian/
