@@ -36,7 +36,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          API_PROVIDER: ${{ secrets.API_PROVIDER || 'openai' }}
+          API_PROVIDER: anthropic
         run: python morning_briefing.py
 
       - name: Commit and push
