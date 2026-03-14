@@ -1,0 +1,69 @@
+# Research agent sources for Learning Ecosystem Manager
+# Role focus: enterprise L&D, learning platforms, human development research
+# Tooling focus: Copilot, Workday, Cursor, Udemy for Business
+
+rss_sources:
+  # ---- Your tooling stack ----
+  - name: Microsoft Copilot / 365
+    category: tooling
+    url: https://techcommunity.microsoft.com/rss/board/Microsoft365Copilot
+  - name: Microsoft 365 Blog
+    category: tooling
+    url: https://techcommunity.microsoft.com/rss/board/General
+  - name: Workday Blog
+    category: tooling
+    url: https://blog.workday.com/feed/
+  - name: Workday Technology (Medium)
+    category: tooling
+    url: https://medium.com/feed/workday-engineering
+  - name: Cursor Blog
+    category: tooling
+    url: https://cursor.sh/rss.xml
+  - name: Cursor Changelog
+    category: tooling
+    url: https://cursor.com/changelog/rss.xml
+  - name: Udemy Business / Blog
+    category: tooling
+    url: https://blog.udemy.com/feed/
+
+  # ---- AI & tech relevant to L&D ----
+  - name: Microsoft AI Blog
+    category: ai_tech
+    url: https://blogs.microsoft.com/ai/feed/
+  - name: OpenAI Blog
+    category: ai_tech
+    url: https://openai.com/blog/rss.xml
+  - name: Google AI Blog
+    category: ai_tech
+    url: https://blog.google/technology/developers/rss/
+  - name: TechCrunch
+    category: ai_tech
+    url: https://techcrunch.com/feed/
+  - name: MIT Technology Review
+    category: ai_tech
+    url: https://www.technologyreview.com/feed/
+  - name: Harvard Business Review
+    category: human_development
+    url: https://hbr.org/feed
+  - name: ATD (Association for Talent Development)
+    category: human_development
+    url: https://www.td.org/rss
+
+# Semantic Scholar paper search queries (research papers, no API key required)
+# Run periodically; results are relevance-ranked by the API
+semantic_scholar_queries:
+  - query: "workplace learning adult learning corporate training"
+    category: human_development
+    limit: 5
+  - query: "learning ecosystem skills development enterprise"
+    category: human_development
+    limit: 5
+  - query: "human development lifelong learning professional development"
+    category: human_development
+    limit: 5
+  - query: "AI in education personalized learning"
+    category: ai_tech
+    limit: 5
+  - query: "learning management system LMS effectiveness"
+    category: human_development
+    limit: 5

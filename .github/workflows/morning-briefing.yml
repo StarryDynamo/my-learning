@@ -1,0 +1,46 @@
+name: Morning Briefing
+
+on:
+  schedule:
+    - cron: '15 21 * * *' # 8:15 AM AEDT (Melbourne UTC+11) — after microlearning (7am) and research (8am)
+
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull origin main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate morning briefing
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          API_PROVIDER: ${{ secrets.API_PROVIDER || 'openai' }}
+        run: python morning_briefing.py
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "☀️ Morning Briefing"
+          file_pattern: "Morning Briefing/**"

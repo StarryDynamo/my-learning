@@ -1,0 +1,48 @@
+name: Daily Research Digest
+
+on:
+  schedule:
+    - cron: '0 21 * * *' # 8:00 AM AEDT (Melbourne UTC+11)
+
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Include items from last N days
+        required: false
+        default: "7"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate research digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          VAULT_PATH: ${{ github.workspace }}
+        working-directory: research-agent
+        run: |
+          python vault_article.py --days ${{ inputs.days || '7' }}
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📰 Research Digest: ${{ github.event.repository.name }}"
+          file_pattern: "Research Digest/**"

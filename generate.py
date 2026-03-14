@@ -48,7 +48,7 @@ def set_github_output(**kwargs):
 # Topic selection — weighted toward least-covered, avoids yesterday's topic
 # ---------------------------------------------------------------------------
 
-def select_topic(topics, tracker, override=None):
+def select_topic(topics, tracker, override=None, research_boosts=None):
     if override and override not in ("auto", ""):
         return override
 
@@ -62,7 +62,10 @@ def select_topic(topics, tracker, override=None):
     for topic in topics:
         candidates.append(topic)
         gap = counts[topic] - min_count
-        weights.append(max(1, 10 - gap * 3))
+        base_weight = max(1, 10 - gap * 3)
+        if research_boosts and research_boosts.get(topic, 0) > 0:
+            base_weight += research_boosts[topic] * 2
+        weights.append(base_weight)
 
     history = tracker.get("history", [])
     if history and len(candidates) > 1:
@@ -97,10 +100,78 @@ def recent_concepts(tracker, days=14):
 
 
 # ---------------------------------------------------------------------------
+# Cross-agent: read latest research digest for context
+# ---------------------------------------------------------------------------
+
+def get_research_context():
+    """Read the most recent research digest to inform topic selection and content."""
+    digest_dir = ROOT / "Research Digest"
+    if not digest_dir.exists():
+        return None
+
+    digests = sorted(digest_dir.glob("Research Digest *.md"), reverse=True)
+    if not digests:
+        return None
+
+    try:
+        content = digests[0].read_text(encoding="utf-8")
+        return content[:2000]
+    except Exception:
+        return None
+
+
+TOPIC_KEYWORDS = {
+    "Learning Science": [
+        "learning", "training", "pedagogy", "curriculum", "instruction",
+        "retention", "cognitive", "spaced repetition", "feedback",
+        "assessment", "competency", "skill", "development program",
+    ],
+    "Behavioural Economics": [
+        "bias", "nudge", "incentive", "decision", "heuristic",
+        "behavioral", "behavioural", "choice architecture", "prospect",
+        "loss aversion", "framing", "default", "sunk cost",
+    ],
+    "Complexity Theory": [
+        "emergent", "emergence", "complex", "adaptive", "nonlinear",
+        "feedback loop", "tipping point", "network effect", "self-organiz",
+        "chaos", "resilience", "ecosystem", "interdepend",
+    ],
+    "AI Management": [
+        "ai", "artificial intelligence", "machine learning", "copilot",
+        "automation", "llm", "generative", "model", "deployment",
+        "governance", "responsible ai", "augment", "human-ai",
+    ],
+    "Strategy": [
+        "strategy", "competitive", "positioning", "growth", "market",
+        "disruption", "innovation", "business model", "value chain",
+        "capability", "transformation", "roadmap", "alignment",
+    ],
+}
+
+
+def boost_topics_from_research(topics, tracker, research_context):
+    """Return topic weights boosted by relevance to today's research digest."""
+    if not research_context:
+        return None
+
+    context_lower = research_context.lower()
+    boosts = {}
+    for topic in topics:
+        keywords = TOPIC_KEYWORDS.get(topic, [])
+        hits = sum(1 for kw in keywords if kw.lower() in context_lower)
+        boosts[topic] = hits
+
+    if max(boosts.values()) == 0:
+        return None
+
+    return boosts
+
+
+# ---------------------------------------------------------------------------
 # Prompt construction
 # ---------------------------------------------------------------------------
 
-def build_daily_prompt(topic, all_topics, recent, reviews):
+def build_daily_prompt(topic, all_topics, recent, reviews, research_context=None):
     other_topics = [t for t in all_topics if t != topic]
 
     recent_block = ""
@@ -108,6 +179,16 @@ def build_daily_prompt(topic, all_topics, recent, reviews):
         lines = [f"  - {c['topic']}: {c['concept']} ({c['date']})" for c in recent]
         recent_block = (
             "\nPreviously covered (DO NOT repeat these):\n" + "\n".join(lines) + "\n"
+        )
+
+    research_block = ""
+    if research_context:
+        research_block = (
+            "\nToday's research digest highlights (use this for inspiration — "
+            "pick a concept that connects to current events and trends, but "
+            "do NOT just summarize the digest):\n"
+            + research_context[:1200]
+            + "\n"
         )
 
     review_block = ""
@@ -124,7 +205,7 @@ def build_daily_prompt(topic, all_topics, recent, reviews):
         )
 
     return f"""Generate a microlearning note on **{topic}**.
-{recent_block}
+{recent_block}{research_block}
 Structure the note EXACTLY as follows:
 
 ## 💡 Concept
@@ -279,12 +360,15 @@ def run_daily(config, tracker):
     intervals = config.get("spaced_repetition_intervals", [1, 3, 7, 14, 30])
     output_dir = config.get("output_dir", "Microlearning")
 
+    research_context = get_research_context()
+    research_boosts = boost_topics_from_research(topics, tracker, research_context)
+
     override = os.getenv("TOPIC_OVERRIDE", "auto")
-    topic = select_topic(topics, tracker, override)
+    topic = select_topic(topics, tracker, override, research_boosts)
 
     recent = recent_concepts(tracker)
     reviews = concepts_due_for_review(tracker, today)
-    prompt = build_daily_prompt(topic, topics, recent, reviews)
+    prompt = build_daily_prompt(topic, topics, recent, reviews, research_context)
     content = call_llm(prompt, config)
 
     filepath, concept = write_note(content, topic, today, output_dir)

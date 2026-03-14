@@ -1,0 +1,46 @@
+# Relevance scoring for Learning Ecosystem Manager
+# Positive: boost items that match L&D, your tools, human development
+# Negative: downrank off-topic or noise
+
+positive:
+  # Your stack
+  - copilot
+  - workday
+  - cursor
+  - udemy
+  # Learning & ecosystem
+  - learning
+  - skills
+  - l&d
+  - ld
+  - talent
+  - training
+  - development
+  - ecosystem
+  - competency
+  - career
+  # Platform features
+  - release
+  - integration
+  - api
+  - analytics
+  - recommendation
+  - path
+  - course
+  # AI & human development
+  - ai
+  - human development
+  - adult learning
+  - workforce
+  - leadership
+  - growth
+  - retention
+
+negative:
+  - cryptocurrency
+  - gaming
+  - celebrity
+  - undergraduate only
+  - k-12 only
+  - giveaway
+  - coupon

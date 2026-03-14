@@ -13,5 +13,20 @@
 !.github/
 !.github/**
 
+# Research agent
+!research-agent/
+!research-agent/**
+!Research Digest/
+!Research Digest/**
+
+# Flight scanner output
+!Flight Scanner/
+!Flight Scanner/**
+
+# Morning briefing
+!morning_briefing.py
+!Morning Briefing/
+!Morning Briefing/**
+
 # Obsidian config (ignore)
 .obsidian/
