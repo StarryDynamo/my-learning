@@ -5,12 +5,31 @@
       "topic": "Complexity Theory",
       "concept": "The Adjacent Possible",
       "file": "Microlearning/Complexity Theory/2026-03-14-the-adjacent-possible.md",
-      "review_dates": ["2026-03-15", "2026-03-17", "2026-03-21", "2026-03-28", "2026-04-13"]
+      "review_dates": [
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-21",
+        "2026-03-28",
+        "2026-04-13"
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "topic": "Behavioural Economics",
+      "concept": "The Automation Bias Paradox",
+      "file": "Microlearning/Behavioural Economics/2026-03-14-the-automation-bias-paradox.md",
+      "review_dates": [
+        "2026-03-15",
+        "2026-03-17",
+        "2026-03-21",
+        "2026-03-28",
+        "2026-04-13"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 0,
-    "Behavioural Economics": 0,
+    "Behavioural Economics": 1,
     "Complexity Theory": 1,
     "AI Management": 0,
     "Strategy": 0
