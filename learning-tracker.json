@@ -25,14 +25,27 @@
         "2026-03-28",
         "2026-04-13"
       ]
+    },
+    {
+      "date": "2026-03-15",
+      "topic": "AI Management",
+      "concept": "The Integration Velocity Trap",
+      "file": "Microlearning/AI Management/2026-03-15-the-integration-velocity-trap.md",
+      "review_dates": [
+        "2026-03-16",
+        "2026-03-18",
+        "2026-03-22",
+        "2026-03-29",
+        "2026-04-14"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 0,
     "Behavioural Economics": 1,
     "Complexity Theory": 1,
-    "AI Management": 0,
+    "AI Management": 1,
     "Strategy": 0
   },
-  "last_generated": "2026-03-14"
+  "last_generated": "2026-03-15"
 }
