@@ -51,14 +51,27 @@
         "2026-03-30",
         "2026-04-15"
       ]
+    },
+    {
+      "date": "2026-03-17",
+      "topic": "Learning Science",
+      "concept": "The Scaffold Collapse Effect",
+      "file": "Microlearning/Learning Science/2026-03-17-the-scaffold-collapse-effect.md",
+      "review_dates": [
+        "2026-03-18",
+        "2026-03-20",
+        "2026-03-24",
+        "2026-03-31",
+        "2026-04-16"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 1,
+    "Learning Science": 2,
     "Behavioural Economics": 1,
     "Complexity Theory": 1,
     "AI Management": 1,
     "Strategy": 0
   },
-  "last_generated": "2026-03-16"
+  "last_generated": "2026-03-17"
 }
