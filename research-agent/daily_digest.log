@@ -1,0 +1,5 @@
+2026-03-14 09:33:54 [INFO] Research Agent daily scheduler: 8:00 AM Melbourne → Obsidian vault. Ctrl+C to stop.
+2026-03-14 10:41:28 [INFO] Research Agent daily scheduler: 8:00 AM Melbourne → Obsidian vault. Ctrl+C to stop.
+2026-03-15 08:00:30 [INFO] Running daily research digest → Obsidian vault...
+2026-03-15 08:01:25 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-15 08:01:25 [INFO] Wrote C:\Users\heave\OneDrive\Documents\Tom's Vault\Research Digest\Research Digest 2026-03-15.md (39 items)

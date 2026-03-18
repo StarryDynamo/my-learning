@@ -59,5 +59,5 @@ jobs:
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🧠 ${{ steps.generate.outputs.topic }}: ${{ steps.generate.outputs.concept }}"
-          file_pattern: "Microlearning/** learning-tracker.json"
+          commit_message: "🧠 ${{ steps.generate.outputs.topic || 'Microlearning' }}: ${{ steps.generate.outputs.concept || 'daily note' }}"
+          file_pattern: "Microlearning/ learning-tracker.json"

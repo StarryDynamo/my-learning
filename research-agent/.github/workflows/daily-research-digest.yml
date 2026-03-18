@@ -1,0 +1,50 @@
+# Daily Research Digest — 8:00 AM Melbourne time
+# Runs scanner + Claude synthesis and commits the digest to this repo.
+# Obsidian can sync this repo (or the outputs folder) to get the digest.
+name: Daily Research Digest
+
+on:
+  schedule:
+    # 21:00 UTC = 8:00 AM AEDT (Melbourne summer); 22:00 UTC = 8:00 AM AEST
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Include items from last N days
+        required: false
+        default: 7
+        type: number
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run research digest
+        id: run
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          mkdir -p outputs
+          python vault_article.py --out outputs/ResearchDigest.md --days ${{ github.event.inputs.days || 7 }}
+
+      - name: Commit and push digest
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📚 Research digest (daily)"
+          file_pattern: "outputs/ResearchDigest.md"

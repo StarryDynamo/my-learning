@@ -2,9 +2,6 @@
 """
 Synthesise research scan results into a readable article using Claude,
 then write the article as a markdown note to the Obsidian vault.
-
-Supports running locally (writes to VAULT_PATH) or in GitHub Actions
-(writes relative to the repo root via VAULT_PATH env var).
 """
 from __future__ import annotations
 
@@ -15,13 +12,11 @@ import textwrap
 
 from scanner import ResearchItem
 
-VAULT_PATH = pathlib.Path(
-    os.environ.get(
-        "VAULT_PATH",
-        r"C:\Users\heave\OneDrive\Documents\Tom's Vault",
-    )
-)
-VAULT_FOLDER = "Research Digest"
+# Obsidian vault: set OBSIDIAN_VAULT and optional OBSIDIAN_RESEARCH_FOLDER in env
+_DEFAULT_VAULT = pathlib.Path(r"C:\Users\heave\OneDrive\Documents\Tom's Vault")
+_raw = os.environ.get("OBSIDIAN_VAULT", "")
+VAULT_PATH = pathlib.Path(_raw) if _raw else _DEFAULT_VAULT
+VAULT_FOLDER = os.environ.get("OBSIDIAN_RESEARCH_FOLDER", "Research Digest")
 
 
 def _build_source_block(items: list[ResearchItem]) -> str:
@@ -166,7 +161,9 @@ def _fallback_article(items: list[ResearchItem]) -> str:
 
 
 def write_to_vault(article: str, date_str: str | None = None) -> pathlib.Path:
-    """Write the article to the Obsidian vault. Returns the file path."""
+    """Write the article to the Obsidian vault. Returns the file path. Skips write if VAULT_PATH is empty or invalid."""
+    if not str(VAULT_PATH).strip() or not VAULT_PATH.exists():
+        raise FileNotFoundError(f"Obsidian vault path not set or not found: {VAULT_PATH} (set OBSIDIAN_VAULT)")
     if not date_str:
         date_str = dt.datetime.now().strftime("%Y-%m-%d")
 
@@ -186,7 +183,7 @@ def run_and_write_vault(
     min_score: float = 0.0,
     category_filter: list[str] | None = None,
 ) -> tuple[pathlib.Path, int]:
-    """Full pipeline: scan -> synthesise -> write to vault. Returns (filepath, item_count)."""
+    """Full pipeline: scan → synthesise → write to vault. Returns (filepath, item_count)."""
     from scanner import run_scan
 
     dir_ = pathlib.Path(__file__).resolve().parent
@@ -214,11 +211,12 @@ if __name__ == "__main__":
     if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-    ap = argparse.ArgumentParser(description="Synthesise research digest -> Obsidian vault")
+    ap = argparse.ArgumentParser(description="Synthesise research digest → Obsidian vault")
     ap.add_argument("--days", type=int, default=30, help="Include items from last N days")
     ap.add_argument("--no-papers", action="store_true", help="Skip Semantic Scholar")
     ap.add_argument("--min-score", type=float, default=0.0)
     ap.add_argument("--dry-run", action="store_true", help="Print article without writing to vault")
+    ap.add_argument("--out", default="", help="Write article to this file instead of vault (creates parent dirs)")
     args = ap.parse_args()
 
     from scanner import run_scan
@@ -233,7 +231,12 @@ if __name__ == "__main__":
     valid_count = len([i for i in items if not i.title.startswith("[Feed error")])
     article = synthesise_article(items)
 
-    if args.dry_run:
+    if args.out:
+        out_path = pathlib.Path(args.out)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(article, encoding="utf-8")
+        print(f"Wrote {out_path} ({valid_count} items)")
+    elif args.dry_run:
         print(article)
         print(f"\n({valid_count} items, dry run — not written to vault)")
     else:
