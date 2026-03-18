@@ -64,14 +64,27 @@
         "2026-03-31",
         "2026-04-16"
       ]
+    },
+    {
+      "date": "2026-03-18",
+      "topic": "AI Management",
+      "concept": "The Orchestration Paradox",
+      "file": "Microlearning/AI Management/2026-03-18-the-orchestration-paradox.md",
+      "review_dates": [
+        "2026-03-19",
+        "2026-03-21",
+        "2026-03-25",
+        "2026-04-01",
+        "2026-04-17"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 2,
     "Behavioural Economics": 1,
     "Complexity Theory": 1,
-    "AI Management": 1,
+    "AI Management": 2,
     "Strategy": 0
   },
-  "last_generated": "2026-03-17"
+  "last_generated": "2026-03-18"
 }
