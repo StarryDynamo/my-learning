@@ -77,6 +77,19 @@
         "2026-04-01",
         "2026-04-17"
       ]
+    },
+    {
+      "date": "2026-03-19",
+      "topic": "Strategy",
+      "concept": "The Platform Envelopment Trap",
+      "file": "Microlearning/Strategy/2026-03-19-the-platform-envelopment-trap.md",
+      "review_dates": [
+        "2026-03-20",
+        "2026-03-22",
+        "2026-03-26",
+        "2026-04-02",
+        "2026-04-18"
+      ]
     }
   ],
   "topic_counts": {
@@ -84,7 +97,7 @@
     "Behavioural Economics": 1,
     "Complexity Theory": 1,
     "AI Management": 2,
-    "Strategy": 0
+    "Strategy": 1
   },
-  "last_generated": "2026-03-18"
+  "last_generated": "2026-03-19"
 }
