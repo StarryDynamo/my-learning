@@ -90,14 +90,27 @@
         "2026-04-02",
         "2026-04-18"
       ]
+    },
+    {
+      "date": "2026-03-20",
+      "topic": "Learning Science",
+      "concept": "The Competency Compression Paradox",
+      "file": "Microlearning/Learning Science/2026-03-20-the-competency-compression-paradox.md",
+      "review_dates": [
+        "2026-03-21",
+        "2026-03-23",
+        "2026-03-27",
+        "2026-04-03",
+        "2026-04-19"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 2,
+    "Learning Science": 3,
     "Behavioural Economics": 1,
     "Complexity Theory": 1,
     "AI Management": 2,
     "Strategy": 1
   },
-  "last_generated": "2026-03-19"
+  "last_generated": "2026-03-20"
 }
