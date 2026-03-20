@@ -216,7 +216,17 @@ if __name__ == "__main__":
     ap.add_argument("--no-papers", action="store_true", help="Skip Semantic Scholar")
     ap.add_argument("--min-score", type=float, default=0.0)
     ap.add_argument("--dry-run", action="store_true", help="Print article without writing to vault")
-    ap.add_argument("--out", default="", help="Write article to this file instead of vault (creates parent dirs)")
+    ap.add_argument(
+        "--out-dir",
+        default="",
+        help='Write article to this directory as "Research Digest YYYY-MM-DD.md" (matches vault naming; use for daily CI)',
+    )
+    ap.add_argument(
+        "--date",
+        default="",
+        help="Date for --out-dir filename (YYYY-MM-DD); default: today (runner local time, usually UTC on GitHub Actions)",
+    )
+    ap.add_argument("--out", default="", help="Write article to this exact file instead of vault (creates parent dirs)")
     args = ap.parse_args()
 
     from scanner import run_scan
@@ -231,7 +241,13 @@ if __name__ == "__main__":
     valid_count = len([i for i in items if not i.title.startswith("[Feed error")])
     article = synthesise_article(items)
 
-    if args.out:
+    if args.out_dir:
+        date_str = (args.date or dt.datetime.now().strftime("%Y-%m-%d")).strip()
+        out_path = pathlib.Path(args.out_dir) / f"Research Digest {date_str}.md"
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(article, encoding="utf-8")
+        print(f"Wrote {out_path} ({valid_count} items)")
+    elif args.out:
         out_path = pathlib.Path(args.out)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(article, encoding="utf-8")

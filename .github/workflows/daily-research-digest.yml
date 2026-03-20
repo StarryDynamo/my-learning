@@ -43,10 +43,10 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           mkdir -p outputs
-          python vault_article.py --out outputs/ResearchDigest.md --days ${{ github.event.inputs.days || 7 }}
+          python vault_article.py --out-dir outputs --days ${{ github.event.inputs.days || 7 }}
 
       - name: Commit and push digest
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "📚 Research digest (daily)"
-          file_pattern: "research-agent/outputs/ResearchDigest.md"
+          file_pattern: "research-agent/outputs/*.md"

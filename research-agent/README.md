@@ -88,7 +88,7 @@ If **research-agent** lives inside another repo (e.g. **my-learning** with micro
 2. Copy **`research-agent/.github/workflows/daily-research-digest-at-repo-root.yml`** to **`.github/workflows/daily-research-digest.yml`** at the repo root (you can rename when copying).
 3. In GitHub: **Settings → Secrets and variables → Actions** → ensure **`ANTHROPIC_API_KEY`** is set.
 
-The workflow runs from the `research-agent/` subfolder and commits `research-agent/outputs/ResearchDigest.md`. You can sync that file (or the whole repo) with Obsidian.
+The workflow runs from the `research-agent/` subfolder and commits a new file each day: `research-agent/outputs/Research Digest YYYY-MM-DD.md` (same naming as the vault). You can sync that folder (or the whole repo) with Obsidian.
 
 ## 20-minute podcast via Google NotebookLM
 
