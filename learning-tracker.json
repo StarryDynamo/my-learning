@@ -103,14 +103,27 @@
         "2026-04-03",
         "2026-04-19"
       ]
+    },
+    {
+      "date": "2026-03-21",
+      "topic": "Complexity Theory",
+      "concept": "The Tool Convergence Cascade",
+      "file": "Microlearning/Complexity Theory/2026-03-21-the-tool-convergence-cascade.md",
+      "review_dates": [
+        "2026-03-22",
+        "2026-03-24",
+        "2026-03-28",
+        "2026-04-04",
+        "2026-04-20"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 3,
     "Behavioural Economics": 1,
-    "Complexity Theory": 1,
+    "Complexity Theory": 2,
     "AI Management": 2,
     "Strategy": 1
   },
-  "last_generated": "2026-03-20"
+  "last_generated": "2026-03-21"
 }
