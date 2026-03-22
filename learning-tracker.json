@@ -116,14 +116,27 @@
         "2026-04-04",
         "2026-04-20"
       ]
+    },
+    {
+      "date": "2026-03-22",
+      "topic": "AI Management",
+      "concept": "The Development Stack Inversion",
+      "file": "Microlearning/AI Management/2026-03-22-the-development-stack-inversion.md",
+      "review_dates": [
+        "2026-03-23",
+        "2026-03-25",
+        "2026-03-29",
+        "2026-04-05",
+        "2026-04-21"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 3,
     "Behavioural Economics": 1,
     "Complexity Theory": 2,
-    "AI Management": 2,
+    "AI Management": 3,
     "Strategy": 1
   },
-  "last_generated": "2026-03-21"
+  "last_generated": "2026-03-22"
 }
