@@ -129,6 +129,19 @@
         "2026-04-05",
         "2026-04-21"
       ]
+    },
+    {
+      "date": "2026-03-23",
+      "topic": "Strategy",
+      "concept": "The Development Infrastructure Inversion",
+      "file": "Microlearning/Strategy/2026-03-23-the-development-infrastructure-inversion.md",
+      "review_dates": [
+        "2026-03-24",
+        "2026-03-26",
+        "2026-03-30",
+        "2026-04-06",
+        "2026-04-22"
+      ]
     }
   ],
   "topic_counts": {
@@ -136,7 +149,7 @@
     "Behavioural Economics": 1,
     "Complexity Theory": 2,
     "AI Management": 3,
-    "Strategy": 1
+    "Strategy": 2
   },
-  "last_generated": "2026-03-22"
+  "last_generated": "2026-03-23"
 }
