@@ -168,6 +168,19 @@
         "2026-04-08",
         "2026-04-24"
       ]
+    },
+    {
+      "date": "2026-03-26",
+      "topic": "Strategy",
+      "concept": "The Development Environment Capture Strategy",
+      "file": "Microlearning/Strategy/2026-03-26-the-development-environment-capture-strategy.md",
+      "review_dates": [
+        "2026-03-27",
+        "2026-03-29",
+        "2026-04-02",
+        "2026-04-09",
+        "2026-04-25"
+      ]
     }
   ],
   "topic_counts": {
@@ -175,7 +188,7 @@
     "Behavioural Economics": 1,
     "Complexity Theory": 2,
     "AI Management": 4,
-    "Strategy": 2
+    "Strategy": 3
   },
-  "last_generated": "2026-03-25"
+  "last_generated": "2026-03-26"
 }
