@@ -181,14 +181,27 @@
         "2026-04-09",
         "2026-04-25"
       ]
+    },
+    {
+      "date": "2026-03-27",
+      "topic": "Complexity Theory",
+      "concept": "The Capability Substrate Shift",
+      "file": "Microlearning/Complexity Theory/2026-03-27-the-capability-substrate-shift.md",
+      "review_dates": [
+        "2026-03-28",
+        "2026-03-30",
+        "2026-04-03",
+        "2026-04-10",
+        "2026-04-26"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 4,
     "Behavioural Economics": 1,
-    "Complexity Theory": 2,
+    "Complexity Theory": 3,
     "AI Management": 4,
     "Strategy": 3
   },
-  "last_generated": "2026-03-26"
+  "last_generated": "2026-03-27"
 }
