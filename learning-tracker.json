@@ -194,6 +194,19 @@
         "2026-04-10",
         "2026-04-26"
       ]
+    },
+    {
+      "date": "2026-03-28",
+      "topic": "Strategy",
+      "concept": "The Integration Moat Paradox",
+      "file": "Microlearning/Strategy/2026-03-28-the-integration-moat-paradox.md",
+      "review_dates": [
+        "2026-03-29",
+        "2026-03-31",
+        "2026-04-04",
+        "2026-04-11",
+        "2026-04-27"
+      ]
     }
   ],
   "topic_counts": {
@@ -201,7 +214,7 @@
     "Behavioural Economics": 1,
     "Complexity Theory": 3,
     "AI Management": 4,
-    "Strategy": 3
+    "Strategy": 4
   },
-  "last_generated": "2026-03-27"
+  "last_generated": "2026-03-28"
 }
