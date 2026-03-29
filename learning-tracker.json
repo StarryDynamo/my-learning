@@ -207,14 +207,27 @@
         "2026-04-11",
         "2026-04-27"
       ]
+    },
+    {
+      "date": "2026-03-29",
+      "topic": "AI Management",
+      "concept": "The Capability Substrate Erosion",
+      "file": "Microlearning/AI Management/2026-03-29-the-capability-substrate-erosion.md",
+      "review_dates": [
+        "2026-03-30",
+        "2026-04-01",
+        "2026-04-05",
+        "2026-04-12",
+        "2026-04-28"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 4,
     "Behavioural Economics": 1,
     "Complexity Theory": 3,
-    "AI Management": 4,
+    "AI Management": 5,
     "Strategy": 4
   },
-  "last_generated": "2026-03-28"
+  "last_generated": "2026-03-29"
 }
