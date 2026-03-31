@@ -233,14 +233,27 @@
         "2026-04-13",
         "2026-04-29"
       ]
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "Learning Science",
+      "concept": "The Development Environment Coupling Effect",
+      "file": "Microlearning/Learning Science/2026-03-31-the-development-environment-coupling-effect.md",
+      "review_dates": [
+        "2026-04-01",
+        "2026-04-03",
+        "2026-04-07",
+        "2026-04-14",
+        "2026-04-30"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 4,
+    "Learning Science": 5,
     "Behavioural Economics": 2,
     "Complexity Theory": 3,
     "AI Management": 5,
     "Strategy": 4
   },
-  "last_generated": "2026-03-30"
+  "last_generated": "2026-03-31"
 }
