@@ -246,14 +246,27 @@
         "2026-04-14",
         "2026-04-30"
       ]
+    },
+    {
+      "date": "2026-04-01",
+      "topic": "Learning Science",
+      "concept": "The Contextual Scaffold Collapse",
+      "file": "Microlearning/Learning Science/2026-04-01-the-contextual-scaffold-collapse.md",
+      "review_dates": [
+        "2026-04-02",
+        "2026-04-04",
+        "2026-04-08",
+        "2026-04-15",
+        "2026-05-01"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 5,
+    "Learning Science": 6,
     "Behavioural Economics": 2,
     "Complexity Theory": 3,
     "AI Management": 5,
     "Strategy": 4
   },
-  "last_generated": "2026-03-31"
+  "last_generated": "2026-04-01"
 }
