@@ -272,14 +272,27 @@
         "2026-04-16",
         "2026-05-02"
       ]
+    },
+    {
+      "date": "2026-04-03",
+      "topic": "Behavioural Economics",
+      "concept": "The Implementation Intention Effect",
+      "file": "Microlearning/Behavioural Economics/2026-04-03-the-implementation-intention-effect.md",
+      "review_dates": [
+        "2026-04-04",
+        "2026-04-06",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-05-03"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 6,
-    "Behavioural Economics": 3,
+    "Behavioural Economics": 4,
     "Complexity Theory": 3,
     "AI Management": 5,
     "Strategy": 4
   },
-  "last_generated": "2026-04-02"
+  "last_generated": "2026-04-03"
 }
