@@ -298,14 +298,27 @@
         "2026-04-18",
         "2026-05-04"
       ]
+    },
+    {
+      "date": "2026-04-05",
+      "topic": "Learning Science",
+      "concept": "The Tool-Skill Fusion Paradox",
+      "file": "Microlearning/Learning Science/2026-04-05-the-tool-skill-fusion-paradox.md",
+      "review_dates": [
+        "2026-04-06",
+        "2026-04-08",
+        "2026-04-12",
+        "2026-04-19",
+        "2026-05-05"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 6,
+    "Learning Science": 7,
     "Behavioural Economics": 4,
     "Complexity Theory": 4,
     "AI Management": 5,
     "Strategy": 4
   },
-  "last_generated": "2026-04-04"
+  "last_generated": "2026-04-05"
 }
