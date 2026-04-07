@@ -324,14 +324,27 @@
         "2026-04-20",
         "2026-05-06"
       ]
+    },
+    {
+      "date": "2026-04-07",
+      "topic": "Learning Science",
+      "concept": "The Skill Transfer Velocity Paradox",
+      "file": "Microlearning/Learning Science/2026-04-07-the-skill-transfer-velocity-paradox.md",
+      "review_dates": [
+        "2026-04-08",
+        "2026-04-10",
+        "2026-04-14",
+        "2026-04-21",
+        "2026-05-07"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 7,
+    "Learning Science": 8,
     "Behavioural Economics": 4,
     "Complexity Theory": 4,
     "AI Management": 5,
     "Strategy": 5
   },
-  "last_generated": "2026-04-06"
+  "last_generated": "2026-04-07"
 }
