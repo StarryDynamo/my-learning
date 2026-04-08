@@ -337,14 +337,27 @@
         "2026-04-21",
         "2026-05-07"
       ]
+    },
+    {
+      "date": "2026-04-08",
+      "topic": "Behavioural Economics",
+      "concept": "The Peak-End Rule",
+      "file": "Microlearning/Behavioural Economics/2026-04-08-the-peak-end-rule.md",
+      "review_dates": [
+        "2026-04-09",
+        "2026-04-11",
+        "2026-04-15",
+        "2026-04-22",
+        "2026-05-08"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 8,
-    "Behavioural Economics": 4,
+    "Behavioural Economics": 5,
     "Complexity Theory": 4,
     "AI Management": 5,
     "Strategy": 5
   },
-  "last_generated": "2026-04-07"
+  "last_generated": "2026-04-08"
 }
