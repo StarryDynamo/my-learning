@@ -350,14 +350,27 @@
         "2026-04-22",
         "2026-05-08"
       ]
+    },
+    {
+      "date": "2026-04-09",
+      "topic": "Learning Science",
+      "concept": "The Procedural Scaffolding Dependency",
+      "file": "Microlearning/Learning Science/2026-04-09-the-procedural-scaffolding-dependency.md",
+      "review_dates": [
+        "2026-04-10",
+        "2026-04-12",
+        "2026-04-16",
+        "2026-04-23",
+        "2026-05-09"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 8,
+    "Learning Science": 9,
     "Behavioural Economics": 5,
     "Complexity Theory": 4,
     "AI Management": 5,
     "Strategy": 5
   },
-  "last_generated": "2026-04-08"
+  "last_generated": "2026-04-09"
 }
