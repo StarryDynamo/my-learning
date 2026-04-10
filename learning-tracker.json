@@ -363,14 +363,27 @@
         "2026-04-23",
         "2026-05-09"
       ]
+    },
+    {
+      "date": "2026-04-10",
+      "topic": "Complexity Theory",
+      "concept": "The Critical Transition Cascade",
+      "file": "Microlearning/Complexity Theory/2026-04-10-the-critical-transition-cascade.md",
+      "review_dates": [
+        "2026-04-11",
+        "2026-04-13",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-05-10"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 9,
     "Behavioural Economics": 5,
-    "Complexity Theory": 4,
+    "Complexity Theory": 5,
     "AI Management": 5,
     "Strategy": 5
   },
-  "last_generated": "2026-04-09"
+  "last_generated": "2026-04-10"
 }
