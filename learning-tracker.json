@@ -389,14 +389,27 @@
         "2026-04-25",
         "2026-05-11"
       ]
+    },
+    {
+      "date": "2026-04-12",
+      "topic": "Behavioural Economics",
+      "concept": "The Competence Dilution Effect",
+      "file": "Microlearning/Behavioural Economics/2026-04-12-the-competence-dilution-effect.md",
+      "review_dates": [
+        "2026-04-13",
+        "2026-04-15",
+        "2026-04-19",
+        "2026-04-26",
+        "2026-05-12"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 9,
-    "Behavioural Economics": 5,
+    "Behavioural Economics": 6,
     "Complexity Theory": 5,
     "AI Management": 6,
     "Strategy": 5
   },
-  "last_generated": "2026-04-11"
+  "last_generated": "2026-04-12"
 }
