@@ -402,14 +402,27 @@
         "2026-04-26",
         "2026-05-12"
       ]
+    },
+    {
+      "date": "2026-04-13",
+      "topic": "Complexity Theory",
+      "concept": "The Amplification Threshold Effect",
+      "file": "Microlearning/Complexity Theory/2026-04-13-the-amplification-threshold-effect.md",
+      "review_dates": [
+        "2026-04-14",
+        "2026-04-16",
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-13"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 9,
     "Behavioural Economics": 6,
-    "Complexity Theory": 5,
+    "Complexity Theory": 6,
     "AI Management": 6,
     "Strategy": 5
   },
-  "last_generated": "2026-04-12"
+  "last_generated": "2026-04-13"
 }
