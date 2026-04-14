@@ -116,14 +116,313 @@
         "2026-04-04",
         "2026-04-20"
       ]
+    },
+    {
+      "date": "2026-03-22",
+      "topic": "AI Management",
+      "concept": "The Development Stack Inversion",
+      "file": "Microlearning/AI Management/2026-03-22-the-development-stack-inversion.md",
+      "review_dates": [
+        "2026-03-23",
+        "2026-03-25",
+        "2026-03-29",
+        "2026-04-05",
+        "2026-04-21"
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "topic": "Strategy",
+      "concept": "The Development Infrastructure Inversion",
+      "file": "Microlearning/Strategy/2026-03-23-the-development-infrastructure-inversion.md",
+      "review_dates": [
+        "2026-03-24",
+        "2026-03-26",
+        "2026-03-30",
+        "2026-04-06",
+        "2026-04-22"
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "topic": "Learning Science",
+      "concept": "The Expertise Velocity Mismatch",
+      "file": "Microlearning/Learning Science/2026-03-24-the-expertise-velocity-mismatch.md",
+      "review_dates": [
+        "2026-03-25",
+        "2026-03-27",
+        "2026-03-31",
+        "2026-04-07",
+        "2026-04-23"
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "topic": "AI Management",
+      "concept": "The Development Orchestration Paradox",
+      "file": "Microlearning/AI Management/2026-03-25-the-development-orchestration-paradox.md",
+      "review_dates": [
+        "2026-03-26",
+        "2026-03-28",
+        "2026-04-01",
+        "2026-04-08",
+        "2026-04-24"
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "topic": "Strategy",
+      "concept": "The Development Environment Capture Strategy",
+      "file": "Microlearning/Strategy/2026-03-26-the-development-environment-capture-strategy.md",
+      "review_dates": [
+        "2026-03-27",
+        "2026-03-29",
+        "2026-04-02",
+        "2026-04-09",
+        "2026-04-25"
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "topic": "Complexity Theory",
+      "concept": "The Capability Substrate Shift",
+      "file": "Microlearning/Complexity Theory/2026-03-27-the-capability-substrate-shift.md",
+      "review_dates": [
+        "2026-03-28",
+        "2026-03-30",
+        "2026-04-03",
+        "2026-04-10",
+        "2026-04-26"
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "topic": "Strategy",
+      "concept": "The Integration Moat Paradox",
+      "file": "Microlearning/Strategy/2026-03-28-the-integration-moat-paradox.md",
+      "review_dates": [
+        "2026-03-29",
+        "2026-03-31",
+        "2026-04-04",
+        "2026-04-11",
+        "2026-04-27"
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "topic": "AI Management",
+      "concept": "The Capability Substrate Erosion",
+      "file": "Microlearning/AI Management/2026-03-29-the-capability-substrate-erosion.md",
+      "review_dates": [
+        "2026-03-30",
+        "2026-04-01",
+        "2026-04-05",
+        "2026-04-12",
+        "2026-04-28"
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "topic": "Behavioural Economics",
+      "concept": "The Decoy Effect (Asymmetric Dominance)",
+      "file": "Microlearning/Behavioural Economics/2026-03-30-the-decoy-effect-asymmetric-dominance.md",
+      "review_dates": [
+        "2026-03-31",
+        "2026-04-02",
+        "2026-04-06",
+        "2026-04-13",
+        "2026-04-29"
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "topic": "Learning Science",
+      "concept": "The Development Environment Coupling Effect",
+      "file": "Microlearning/Learning Science/2026-03-31-the-development-environment-coupling-effect.md",
+      "review_dates": [
+        "2026-04-01",
+        "2026-04-03",
+        "2026-04-07",
+        "2026-04-14",
+        "2026-04-30"
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "topic": "Learning Science",
+      "concept": "The Contextual Scaffold Collapse",
+      "file": "Microlearning/Learning Science/2026-04-01-the-contextual-scaffold-collapse.md",
+      "review_dates": [
+        "2026-04-02",
+        "2026-04-04",
+        "2026-04-08",
+        "2026-04-15",
+        "2026-05-01"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "topic": "Behavioural Economics",
+      "concept": "The Effort Justification Effect",
+      "file": "Microlearning/Behavioural Economics/2026-04-02-the-effort-justification-effect.md",
+      "review_dates": [
+        "2026-04-03",
+        "2026-04-05",
+        "2026-04-09",
+        "2026-04-16",
+        "2026-05-02"
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "topic": "Behavioural Economics",
+      "concept": "The Implementation Intention Effect",
+      "file": "Microlearning/Behavioural Economics/2026-04-03-the-implementation-intention-effect.md",
+      "review_dates": [
+        "2026-04-04",
+        "2026-04-06",
+        "2026-04-10",
+        "2026-04-17",
+        "2026-05-03"
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "topic": "Complexity Theory",
+      "concept": "The Capability Phase Transition",
+      "file": "Microlearning/Complexity Theory/2026-04-04-the-capability-phase-transition.md",
+      "review_dates": [
+        "2026-04-05",
+        "2026-04-07",
+        "2026-04-11",
+        "2026-04-18",
+        "2026-05-04"
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "topic": "Learning Science",
+      "concept": "The Tool-Skill Fusion Paradox",
+      "file": "Microlearning/Learning Science/2026-04-05-the-tool-skill-fusion-paradox.md",
+      "review_dates": [
+        "2026-04-06",
+        "2026-04-08",
+        "2026-04-12",
+        "2026-04-19",
+        "2026-05-05"
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "topic": "Strategy",
+      "concept": "The Platform Substrate Strategy",
+      "file": "Microlearning/Strategy/2026-04-06-the-platform-substrate-strategy.md",
+      "review_dates": [
+        "2026-04-07",
+        "2026-04-09",
+        "2026-04-13",
+        "2026-04-20",
+        "2026-05-06"
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "topic": "Learning Science",
+      "concept": "The Skill Transfer Velocity Paradox",
+      "file": "Microlearning/Learning Science/2026-04-07-the-skill-transfer-velocity-paradox.md",
+      "review_dates": [
+        "2026-04-08",
+        "2026-04-10",
+        "2026-04-14",
+        "2026-04-21",
+        "2026-05-07"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "topic": "Behavioural Economics",
+      "concept": "The Peak-End Rule",
+      "file": "Microlearning/Behavioural Economics/2026-04-08-the-peak-end-rule.md",
+      "review_dates": [
+        "2026-04-09",
+        "2026-04-11",
+        "2026-04-15",
+        "2026-04-22",
+        "2026-05-08"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "topic": "Learning Science",
+      "concept": "The Procedural Scaffolding Dependency",
+      "file": "Microlearning/Learning Science/2026-04-09-the-procedural-scaffolding-dependency.md",
+      "review_dates": [
+        "2026-04-10",
+        "2026-04-12",
+        "2026-04-16",
+        "2026-04-23",
+        "2026-05-09"
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "topic": "Complexity Theory",
+      "concept": "The Critical Transition Cascade",
+      "file": "Microlearning/Complexity Theory/2026-04-10-the-critical-transition-cascade.md",
+      "review_dates": [
+        "2026-04-11",
+        "2026-04-13",
+        "2026-04-17",
+        "2026-04-24",
+        "2026-05-10"
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "topic": "AI Management",
+      "concept": "The Orchestration Layer Trap",
+      "file": "Microlearning/AI Management/2026-04-11-the-orchestration-layer-trap.md",
+      "review_dates": [
+        "2026-04-12",
+        "2026-04-14",
+        "2026-04-18",
+        "2026-04-25",
+        "2026-05-11"
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "topic": "Behavioural Economics",
+      "concept": "The Competence Dilution Effect",
+      "file": "Microlearning/Behavioural Economics/2026-04-12-the-competence-dilution-effect.md",
+      "review_dates": [
+        "2026-04-13",
+        "2026-04-15",
+        "2026-04-19",
+        "2026-04-26",
+        "2026-05-12"
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "topic": "Complexity Theory",
+      "concept": "The Amplification Threshold Effect",
+      "file": "Microlearning/Complexity Theory/2026-04-13-the-amplification-threshold-effect.md",
+      "review_dates": [
+        "2026-04-14",
+        "2026-04-16",
+        "2026-04-20",
+        "2026-04-27",
+        "2026-05-13"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 3,
-    "Behavioural Economics": 1,
-    "Complexity Theory": 2,
-    "AI Management": 2,
-    "Strategy": 1
+    "Learning Science": 9,
+    "Behavioural Economics": 6,
+    "Complexity Theory": 6,
+    "AI Management": 6,
+    "Strategy": 5
   },
-  "last_generated": "2026-03-21"
+  "last_generated": "2026-04-13"
 }
