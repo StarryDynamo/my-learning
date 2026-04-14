@@ -415,14 +415,27 @@
         "2026-04-27",
         "2026-05-13"
       ]
+    },
+    {
+      "date": "2026-04-14",
+      "topic": "AI Management",
+      "concept": "The Capability Acceleration Mismatch",
+      "file": "Microlearning/AI Management/2026-04-14-the-capability-acceleration-mismatch.md",
+      "review_dates": [
+        "2026-04-15",
+        "2026-04-17",
+        "2026-04-21",
+        "2026-04-28",
+        "2026-05-14"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 9,
     "Behavioural Economics": 6,
     "Complexity Theory": 6,
-    "AI Management": 6,
+    "AI Management": 7,
     "Strategy": 5
   },
-  "last_generated": "2026-04-13"
+  "last_generated": "2026-04-14"
 }
