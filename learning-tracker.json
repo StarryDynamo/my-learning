@@ -428,14 +428,27 @@
         "2026-04-28",
         "2026-05-14"
       ]
+    },
+    {
+      "date": "2026-04-15",
+      "topic": "Complexity Theory",
+      "concept": "The Emergent Bottleneck Paradox",
+      "file": "Microlearning/Complexity Theory/2026-04-15-the-emergent-bottleneck-paradox.md",
+      "review_dates": [
+        "2026-04-16",
+        "2026-04-18",
+        "2026-04-22",
+        "2026-04-29",
+        "2026-05-15"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 9,
     "Behavioural Economics": 6,
-    "Complexity Theory": 6,
+    "Complexity Theory": 7,
     "AI Management": 7,
     "Strategy": 5
   },
-  "last_generated": "2026-04-14"
+  "last_generated": "2026-04-15"
 }
