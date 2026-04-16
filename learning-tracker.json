@@ -441,14 +441,27 @@
         "2026-04-29",
         "2026-05-15"
       ]
+    },
+    {
+      "date": "2026-04-16",
+      "topic": "Learning Science",
+      "concept": "The Workflow Integration Asymmetry",
+      "file": "Microlearning/Learning Science/2026-04-16-the-workflow-integration-asymmetry.md",
+      "review_dates": [
+        "2026-04-17",
+        "2026-04-19",
+        "2026-04-23",
+        "2026-04-30",
+        "2026-05-16"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 9,
+    "Learning Science": 10,
     "Behavioural Economics": 6,
     "Complexity Theory": 7,
     "AI Management": 7,
     "Strategy": 5
   },
-  "last_generated": "2026-04-15"
+  "last_generated": "2026-04-16"
 }
