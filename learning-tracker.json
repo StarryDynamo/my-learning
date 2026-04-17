@@ -454,6 +454,19 @@
         "2026-04-30",
         "2026-05-16"
       ]
+    },
+    {
+      "date": "2026-04-17",
+      "topic": "Strategy",
+      "concept": "The Capability Convergence Trap",
+      "file": "Microlearning/Strategy/2026-04-17-the-capability-convergence-trap.md",
+      "review_dates": [
+        "2026-04-18",
+        "2026-04-20",
+        "2026-04-24",
+        "2026-05-01",
+        "2026-05-17"
+      ]
     }
   ],
   "topic_counts": {
@@ -461,7 +474,7 @@
     "Behavioural Economics": 6,
     "Complexity Theory": 7,
     "AI Management": 7,
-    "Strategy": 5
+    "Strategy": 6
   },
-  "last_generated": "2026-04-16"
+  "last_generated": "2026-04-17"
 }
