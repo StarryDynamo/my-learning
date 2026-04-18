@@ -467,14 +467,27 @@
         "2026-05-01",
         "2026-05-17"
       ]
+    },
+    {
+      "date": "2026-04-18",
+      "topic": "AI Management",
+      "concept": "The Skill Crystallization Effect",
+      "file": "Microlearning/AI Management/2026-04-18-the-skill-crystallization-effect.md",
+      "review_dates": [
+        "2026-04-19",
+        "2026-04-21",
+        "2026-04-25",
+        "2026-05-02",
+        "2026-05-18"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 10,
     "Behavioural Economics": 6,
     "Complexity Theory": 7,
-    "AI Management": 7,
+    "AI Management": 8,
     "Strategy": 6
   },
-  "last_generated": "2026-04-17"
+  "last_generated": "2026-04-18"
 }
