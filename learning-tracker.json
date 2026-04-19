@@ -480,6 +480,19 @@
         "2026-05-02",
         "2026-05-18"
       ]
+    },
+    {
+      "date": "2026-04-19",
+      "topic": "Strategy",
+      "concept": "The Workflow Integration Paradox",
+      "file": "Microlearning/Strategy/2026-04-19-the-workflow-integration-paradox.md",
+      "review_dates": [
+        "2026-04-20",
+        "2026-04-22",
+        "2026-04-26",
+        "2026-05-03",
+        "2026-05-19"
+      ]
     }
   ],
   "topic_counts": {
@@ -487,7 +500,7 @@
     "Behavioural Economics": 6,
     "Complexity Theory": 7,
     "AI Management": 8,
-    "Strategy": 6
+    "Strategy": 7
   },
-  "last_generated": "2026-04-18"
+  "last_generated": "2026-04-19"
 }
