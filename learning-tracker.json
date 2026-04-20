@@ -493,14 +493,27 @@
         "2026-05-03",
         "2026-05-19"
       ]
+    },
+    {
+      "date": "2026-04-20",
+      "topic": "Learning Science",
+      "concept": "The Skill Crystallization Inversion",
+      "file": "Microlearning/Learning Science/2026-04-20-the-skill-crystallization-inversion.md",
+      "review_dates": [
+        "2026-04-21",
+        "2026-04-23",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-20"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 10,
+    "Learning Science": 11,
     "Behavioural Economics": 6,
     "Complexity Theory": 7,
     "AI Management": 8,
     "Strategy": 7
   },
-  "last_generated": "2026-04-19"
+  "last_generated": "2026-04-20"
 }
