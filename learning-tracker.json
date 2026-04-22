@@ -519,14 +519,27 @@
         "2026-05-05",
         "2026-05-21"
       ]
+    },
+    {
+      "date": "2026-04-22",
+      "topic": "Behavioural Economics",
+      "concept": "The Automation Dependency Paradox",
+      "file": "Microlearning/Behavioural Economics/2026-04-22-the-automation-dependency-paradox.md",
+      "review_dates": [
+        "2026-04-23",
+        "2026-04-25",
+        "2026-04-29",
+        "2026-05-06",
+        "2026-05-22"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 11,
-    "Behavioural Economics": 6,
+    "Behavioural Economics": 7,
     "Complexity Theory": 7,
     "AI Management": 9,
     "Strategy": 7
   },
-  "last_generated": "2026-04-21"
+  "last_generated": "2026-04-22"
 }
