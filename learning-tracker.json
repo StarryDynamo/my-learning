@@ -532,14 +532,27 @@
         "2026-05-06",
         "2026-05-22"
       ]
+    },
+    {
+      "date": "2026-04-23",
+      "topic": "Complexity Theory",
+      "concept": "The Redundancy Collapse Cascade",
+      "file": "Microlearning/Complexity Theory/2026-04-23-the-redundancy-collapse-cascade.md",
+      "review_dates": [
+        "2026-04-24",
+        "2026-04-26",
+        "2026-04-30",
+        "2026-05-07",
+        "2026-05-23"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 11,
     "Behavioural Economics": 7,
-    "Complexity Theory": 7,
+    "Complexity Theory": 8,
     "AI Management": 9,
     "Strategy": 7
   },
-  "last_generated": "2026-04-22"
+  "last_generated": "2026-04-23"
 }
