@@ -428,14 +428,131 @@
         "2026-04-28",
         "2026-05-14"
       ]
+    },
+    {
+      "date": "2026-04-15",
+      "topic": "Complexity Theory",
+      "concept": "The Emergent Bottleneck Paradox",
+      "file": "Microlearning/Complexity Theory/2026-04-15-the-emergent-bottleneck-paradox.md",
+      "review_dates": [
+        "2026-04-16",
+        "2026-04-18",
+        "2026-04-22",
+        "2026-04-29",
+        "2026-05-15"
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "topic": "Learning Science",
+      "concept": "The Workflow Integration Asymmetry",
+      "file": "Microlearning/Learning Science/2026-04-16-the-workflow-integration-asymmetry.md",
+      "review_dates": [
+        "2026-04-17",
+        "2026-04-19",
+        "2026-04-23",
+        "2026-04-30",
+        "2026-05-16"
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "topic": "Strategy",
+      "concept": "The Capability Convergence Trap",
+      "file": "Microlearning/Strategy/2026-04-17-the-capability-convergence-trap.md",
+      "review_dates": [
+        "2026-04-18",
+        "2026-04-20",
+        "2026-04-24",
+        "2026-05-01",
+        "2026-05-17"
+      ]
+    },
+    {
+      "date": "2026-04-18",
+      "topic": "AI Management",
+      "concept": "The Skill Crystallization Effect",
+      "file": "Microlearning/AI Management/2026-04-18-the-skill-crystallization-effect.md",
+      "review_dates": [
+        "2026-04-19",
+        "2026-04-21",
+        "2026-04-25",
+        "2026-05-02",
+        "2026-05-18"
+      ]
+    },
+    {
+      "date": "2026-04-19",
+      "topic": "Strategy",
+      "concept": "The Workflow Integration Paradox",
+      "file": "Microlearning/Strategy/2026-04-19-the-workflow-integration-paradox.md",
+      "review_dates": [
+        "2026-04-20",
+        "2026-04-22",
+        "2026-04-26",
+        "2026-05-03",
+        "2026-05-19"
+      ]
+    },
+    {
+      "date": "2026-04-20",
+      "topic": "Learning Science",
+      "concept": "The Skill Crystallization Inversion",
+      "file": "Microlearning/Learning Science/2026-04-20-the-skill-crystallization-inversion.md",
+      "review_dates": [
+        "2026-04-21",
+        "2026-04-23",
+        "2026-04-27",
+        "2026-05-04",
+        "2026-05-20"
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "topic": "AI Management",
+      "concept": "The Delegation Debt Phenomenon",
+      "file": "Microlearning/AI Management/2026-04-21-the-delegation-debt-phenomenon.md",
+      "review_dates": [
+        "2026-04-22",
+        "2026-04-24",
+        "2026-04-28",
+        "2026-05-05",
+        "2026-05-21"
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "topic": "Behavioural Economics",
+      "concept": "The Automation Dependency Paradox",
+      "file": "Microlearning/Behavioural Economics/2026-04-22-the-automation-dependency-paradox.md",
+      "review_dates": [
+        "2026-04-23",
+        "2026-04-25",
+        "2026-04-29",
+        "2026-05-06",
+        "2026-05-22"
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "topic": "Complexity Theory",
+      "concept": "The Redundancy Collapse Cascade",
+      "file": "Microlearning/Complexity Theory/2026-04-23-the-redundancy-collapse-cascade.md",
+      "review_dates": [
+        "2026-04-24",
+        "2026-04-26",
+        "2026-04-30",
+        "2026-05-07",
+        "2026-05-23"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 9,
-    "Behavioural Economics": 6,
-    "Complexity Theory": 6,
-    "AI Management": 7,
-    "Strategy": 5
+    "Learning Science": 11,
+    "Behavioural Economics": 7,
+    "Complexity Theory": 8,
+    "AI Management": 9,
+    "Strategy": 7
   },
-  "last_generated": "2026-04-14"
+  "last_generated": "2026-04-23"
 }
