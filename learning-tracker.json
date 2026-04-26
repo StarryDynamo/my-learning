@@ -571,14 +571,27 @@
         "2026-05-09",
         "2026-05-25"
       ]
+    },
+    {
+      "date": "2026-04-26",
+      "topic": "Complexity Theory",
+      "concept": "The Interface Dissolution Effect",
+      "file": "Microlearning/Complexity Theory/2026-04-26-the-interface-dissolution-effect.md",
+      "review_dates": [
+        "2026-04-27",
+        "2026-04-29",
+        "2026-05-03",
+        "2026-05-10",
+        "2026-05-26"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 12,
     "Behavioural Economics": 8,
-    "Complexity Theory": 8,
+    "Complexity Theory": 9,
     "AI Management": 9,
     "Strategy": 7
   },
-  "last_generated": "2026-04-25"
+  "last_generated": "2026-04-26"
 }
