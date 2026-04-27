@@ -584,14 +584,27 @@
         "2026-05-10",
         "2026-05-26"
       ]
+    },
+    {
+      "date": "2026-04-27",
+      "topic": "Behavioural Economics",
+      "concept": "The Competence Confidence Decoupling",
+      "file": "Microlearning/Behavioural Economics/2026-04-27-the-competence-confidence-decoupling.md",
+      "review_dates": [
+        "2026-04-28",
+        "2026-04-30",
+        "2026-05-04",
+        "2026-05-11",
+        "2026-05-27"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 12,
-    "Behavioural Economics": 8,
+    "Behavioural Economics": 9,
     "Complexity Theory": 9,
     "AI Management": 9,
     "Strategy": 7
   },
-  "last_generated": "2026-04-26"
+  "last_generated": "2026-04-27"
 }
