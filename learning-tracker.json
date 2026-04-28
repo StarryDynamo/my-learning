@@ -597,6 +597,19 @@
         "2026-05-11",
         "2026-05-27"
       ]
+    },
+    {
+      "date": "2026-04-28",
+      "topic": "Strategy",
+      "concept": "The Infrastructure Invisibility Effect",
+      "file": "Microlearning/Strategy/2026-04-28-the-infrastructure-invisibility-effect.md",
+      "review_dates": [
+        "2026-04-29",
+        "2026-05-01",
+        "2026-05-05",
+        "2026-05-12",
+        "2026-05-28"
+      ]
     }
   ],
   "topic_counts": {
@@ -604,7 +617,7 @@
     "Behavioural Economics": 9,
     "Complexity Theory": 9,
     "AI Management": 9,
-    "Strategy": 7
+    "Strategy": 8
   },
-  "last_generated": "2026-04-27"
+  "last_generated": "2026-04-28"
 }
