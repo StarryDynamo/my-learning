@@ -610,14 +610,27 @@
         "2026-05-12",
         "2026-05-28"
       ]
+    },
+    {
+      "date": "2026-04-29",
+      "topic": "Behavioural Economics",
+      "concept": "The Effort Justification Effect",
+      "file": "Microlearning/Behavioural Economics/2026-04-29-the-effort-justification-effect.md",
+      "review_dates": [
+        "2026-04-30",
+        "2026-05-02",
+        "2026-05-06",
+        "2026-05-13",
+        "2026-05-29"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 12,
-    "Behavioural Economics": 9,
+    "Behavioural Economics": 10,
     "Complexity Theory": 9,
     "AI Management": 9,
     "Strategy": 8
   },
-  "last_generated": "2026-04-28"
+  "last_generated": "2026-04-29"
 }
