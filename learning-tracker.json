@@ -636,14 +636,27 @@
         "2026-05-14",
         "2026-05-30"
       ]
+    },
+    {
+      "date": "2026-05-01",
+      "topic": "Complexity Theory",
+      "concept": "The Emergence Compression Principle",
+      "file": "Microlearning/Complexity Theory/2026-05-01-the-emergence-compression-principle.md",
+      "review_dates": [
+        "2026-05-02",
+        "2026-05-04",
+        "2026-05-08",
+        "2026-05-15",
+        "2026-05-31"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 12,
     "Behavioural Economics": 11,
-    "Complexity Theory": 9,
+    "Complexity Theory": 10,
     "AI Management": 9,
     "Strategy": 8
   },
-  "last_generated": "2026-04-30"
+  "last_generated": "2026-05-01"
 }
