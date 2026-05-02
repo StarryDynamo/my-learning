@@ -649,14 +649,27 @@
         "2026-05-15",
         "2026-05-31"
       ]
+    },
+    {
+      "date": "2026-05-02",
+      "topic": "AI Management",
+      "concept": "The Orchestration Layer Illusion",
+      "file": "Microlearning/AI Management/2026-05-02-the-orchestration-layer-illusion.md",
+      "review_dates": [
+        "2026-05-03",
+        "2026-05-05",
+        "2026-05-09",
+        "2026-05-16",
+        "2026-06-01"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 12,
     "Behavioural Economics": 11,
     "Complexity Theory": 10,
-    "AI Management": 9,
+    "AI Management": 10,
     "Strategy": 8
   },
-  "last_generated": "2026-05-01"
+  "last_generated": "2026-05-02"
 }
