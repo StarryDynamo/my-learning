@@ -662,6 +662,19 @@
         "2026-05-16",
         "2026-06-01"
       ]
+    },
+    {
+      "date": "2026-05-03",
+      "topic": "Strategy",
+      "concept": "The Execution Layer Migration",
+      "file": "Microlearning/Strategy/2026-05-03-the-execution-layer-migration.md",
+      "review_dates": [
+        "2026-05-04",
+        "2026-05-06",
+        "2026-05-10",
+        "2026-05-17",
+        "2026-06-02"
+      ]
     }
   ],
   "topic_counts": {
@@ -669,7 +682,7 @@
     "Behavioural Economics": 11,
     "Complexity Theory": 10,
     "AI Management": 10,
-    "Strategy": 8
+    "Strategy": 9
   },
-  "last_generated": "2026-05-02"
+  "last_generated": "2026-05-03"
 }
