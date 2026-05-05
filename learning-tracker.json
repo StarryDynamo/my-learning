@@ -688,14 +688,27 @@
         "2026-05-18",
         "2026-06-03"
       ]
+    },
+    {
+      "date": "2026-05-05",
+      "topic": "Learning Science",
+      "concept": "The Procedural Interference Paradox",
+      "file": "Microlearning/Learning Science/2026-05-05-the-procedural-interference-paradox.md",
+      "review_dates": [
+        "2026-05-06",
+        "2026-05-08",
+        "2026-05-12",
+        "2026-05-19",
+        "2026-06-04"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 12,
+    "Learning Science": 13,
     "Behavioural Economics": 12,
     "Complexity Theory": 10,
     "AI Management": 10,
     "Strategy": 9
   },
-  "last_generated": "2026-05-04"
+  "last_generated": "2026-05-05"
 }
