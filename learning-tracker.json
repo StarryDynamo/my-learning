@@ -701,6 +701,19 @@
         "2026-05-19",
         "2026-06-04"
       ]
+    },
+    {
+      "date": "2026-05-06",
+      "topic": "Strategy",
+      "concept": "The Platform Convergence Trap",
+      "file": "Microlearning/Strategy/2026-05-06-the-platform-convergence-trap.md",
+      "review_dates": [
+        "2026-05-07",
+        "2026-05-09",
+        "2026-05-13",
+        "2026-05-20",
+        "2026-06-05"
+      ]
     }
   ],
   "topic_counts": {
@@ -708,7 +721,7 @@
     "Behavioural Economics": 12,
     "Complexity Theory": 10,
     "AI Management": 10,
-    "Strategy": 9
+    "Strategy": 10
   },
-  "last_generated": "2026-05-05"
+  "last_generated": "2026-05-06"
 }
