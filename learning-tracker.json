@@ -727,14 +727,27 @@
         "2026-05-21",
         "2026-06-06"
       ]
+    },
+    {
+      "date": "2026-05-08",
+      "topic": "Behavioural Economics",
+      "concept": "The Implementation Intention Paradox",
+      "file": "Microlearning/Behavioural Economics/2026-05-08-the-implementation-intention-paradox.md",
+      "review_dates": [
+        "2026-05-09",
+        "2026-05-11",
+        "2026-05-15",
+        "2026-05-22",
+        "2026-06-07"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 13,
-    "Behavioural Economics": 12,
+    "Behavioural Economics": 13,
     "Complexity Theory": 10,
     "AI Management": 10,
     "Strategy": 11
   },
-  "last_generated": "2026-05-07"
+  "last_generated": "2026-05-08"
 }
