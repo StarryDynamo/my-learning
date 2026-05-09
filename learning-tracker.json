@@ -740,14 +740,27 @@
         "2026-05-22",
         "2026-06-07"
       ]
+    },
+    {
+      "date": "2026-05-09",
+      "topic": "Complexity Theory",
+      "concept": "The Cascade Threshold Effect",
+      "file": "Microlearning/Complexity Theory/2026-05-09-the-cascade-threshold-effect.md",
+      "review_dates": [
+        "2026-05-10",
+        "2026-05-12",
+        "2026-05-16",
+        "2026-05-23",
+        "2026-06-08"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 13,
     "Behavioural Economics": 13,
-    "Complexity Theory": 10,
+    "Complexity Theory": 11,
     "AI Management": 10,
     "Strategy": 11
   },
-  "last_generated": "2026-05-08"
+  "last_generated": "2026-05-09"
 }
