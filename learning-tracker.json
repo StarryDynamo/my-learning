@@ -753,14 +753,27 @@
         "2026-05-23",
         "2026-06-08"
       ]
+    },
+    {
+      "date": "2026-05-10",
+      "topic": "Complexity Theory",
+      "concept": "The Redundancy Paradox",
+      "file": "Microlearning/Complexity Theory/2026-05-10-the-redundancy-paradox.md",
+      "review_dates": [
+        "2026-05-11",
+        "2026-05-13",
+        "2026-05-17",
+        "2026-05-24",
+        "2026-06-09"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 13,
     "Behavioural Economics": 13,
-    "Complexity Theory": 11,
+    "Complexity Theory": 12,
     "AI Management": 10,
     "Strategy": 11
   },
-  "last_generated": "2026-05-09"
+  "last_generated": "2026-05-10"
 }
