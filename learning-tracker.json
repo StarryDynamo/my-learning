@@ -766,6 +766,19 @@
         "2026-05-24",
         "2026-06-09"
       ]
+    },
+    {
+      "date": "2026-05-11",
+      "topic": "Strategy",
+      "concept": "The Interface Capture Phenomenon",
+      "file": "Microlearning/Strategy/2026-05-11-the-interface-capture-phenomenon.md",
+      "review_dates": [
+        "2026-05-12",
+        "2026-05-14",
+        "2026-05-18",
+        "2026-05-25",
+        "2026-06-10"
+      ]
     }
   ],
   "topic_counts": {
@@ -773,7 +786,7 @@
     "Behavioural Economics": 13,
     "Complexity Theory": 12,
     "AI Management": 10,
-    "Strategy": 11
+    "Strategy": 12
   },
-  "last_generated": "2026-05-10"
+  "last_generated": "2026-05-11"
 }
