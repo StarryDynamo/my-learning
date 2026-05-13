@@ -792,6 +792,19 @@
         "2026-05-26",
         "2026-06-11"
       ]
+    },
+    {
+      "date": "2026-05-13",
+      "topic": "Strategy",
+      "concept": "The Infrastructure Invisibility Migration",
+      "file": "Microlearning/Strategy/2026-05-13-the-infrastructure-invisibility-migration.md",
+      "review_dates": [
+        "2026-05-14",
+        "2026-05-16",
+        "2026-05-20",
+        "2026-05-27",
+        "2026-06-12"
+      ]
     }
   ],
   "topic_counts": {
@@ -799,7 +812,7 @@
     "Behavioural Economics": 13,
     "Complexity Theory": 12,
     "AI Management": 11,
-    "Strategy": 12
+    "Strategy": 13
   },
-  "last_generated": "2026-05-12"
+  "last_generated": "2026-05-13"
 }
