@@ -805,14 +805,27 @@
         "2026-05-27",
         "2026-06-12"
       ]
+    },
+    {
+      "date": "2026-05-14",
+      "topic": "Behavioural Economics",
+      "concept": "The Substitution Amplification Effect",
+      "file": "Microlearning/Behavioural Economics/2026-05-14-the-substitution-amplification-effect.md",
+      "review_dates": [
+        "2026-05-15",
+        "2026-05-17",
+        "2026-05-21",
+        "2026-05-28",
+        "2026-06-13"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 13,
-    "Behavioural Economics": 13,
+    "Behavioural Economics": 14,
     "Complexity Theory": 12,
     "AI Management": 11,
     "Strategy": 13
   },
-  "last_generated": "2026-05-13"
+  "last_generated": "2026-05-14"
 }
