@@ -818,6 +818,19 @@
         "2026-05-28",
         "2026-06-13"
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "topic": "Strategy",
+      "concept": "The Infrastructure Abstraction Paradox",
+      "file": "Microlearning/Strategy/2026-05-15-the-infrastructure-abstraction-paradox.md",
+      "review_dates": [
+        "2026-05-16",
+        "2026-05-18",
+        "2026-05-22",
+        "2026-05-29",
+        "2026-06-14"
+      ]
     }
   ],
   "topic_counts": {
@@ -825,7 +838,7 @@
     "Behavioural Economics": 14,
     "Complexity Theory": 12,
     "AI Management": 11,
-    "Strategy": 13
+    "Strategy": 14
   },
-  "last_generated": "2026-05-14"
+  "last_generated": "2026-05-15"
 }
