@@ -831,14 +831,27 @@
         "2026-05-29",
         "2026-06-14"
       ]
+    },
+    {
+      "date": "2026-05-16",
+      "topic": "Behavioural Economics",
+      "concept": "The Infrastructure Intimacy Effect",
+      "file": "Microlearning/Behavioural Economics/2026-05-16-the-infrastructure-intimacy-effect.md",
+      "review_dates": [
+        "2026-05-17",
+        "2026-05-19",
+        "2026-05-23",
+        "2026-05-30",
+        "2026-06-15"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 13,
-    "Behavioural Economics": 14,
+    "Behavioural Economics": 15,
     "Complexity Theory": 12,
     "AI Management": 11,
     "Strategy": 14
   },
-  "last_generated": "2026-05-15"
+  "last_generated": "2026-05-16"
 }
