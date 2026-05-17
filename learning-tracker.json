@@ -844,14 +844,27 @@
         "2026-05-30",
         "2026-06-15"
       ]
+    },
+    {
+      "date": "2026-05-17",
+      "topic": "AI Management",
+      "concept": "The Orchestration Displacement Effect",
+      "file": "Microlearning/AI Management/2026-05-17-the-orchestration-displacement-effect.md",
+      "review_dates": [
+        "2026-05-18",
+        "2026-05-20",
+        "2026-05-24",
+        "2026-05-31",
+        "2026-06-16"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 13,
     "Behavioural Economics": 15,
     "Complexity Theory": 12,
-    "AI Management": 11,
+    "AI Management": 12,
     "Strategy": 14
   },
-  "last_generated": "2026-05-16"
+  "last_generated": "2026-05-17"
 }
