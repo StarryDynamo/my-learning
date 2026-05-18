@@ -857,14 +857,27 @@
         "2026-05-31",
         "2026-06-16"
       ]
+    },
+    {
+      "date": "2026-05-18",
+      "topic": "Learning Science",
+      "concept": "The Automation Deskilling Spiral",
+      "file": "Microlearning/Learning Science/2026-05-18-the-automation-deskilling-spiral.md",
+      "review_dates": [
+        "2026-05-19",
+        "2026-05-21",
+        "2026-05-25",
+        "2026-06-01",
+        "2026-06-17"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 13,
+    "Learning Science": 14,
     "Behavioural Economics": 15,
     "Complexity Theory": 12,
     "AI Management": 12,
     "Strategy": 14
   },
-  "last_generated": "2026-05-17"
+  "last_generated": "2026-05-18"
 }
