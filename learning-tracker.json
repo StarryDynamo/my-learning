@@ -870,14 +870,27 @@
         "2026-06-01",
         "2026-06-17"
       ]
+    },
+    {
+      "date": "2026-05-19",
+      "topic": "Complexity Theory",
+      "concept": "The Operational Complexity Inversion",
+      "file": "Microlearning/Complexity Theory/2026-05-19-the-operational-complexity-inversion.md",
+      "review_dates": [
+        "2026-05-20",
+        "2026-05-22",
+        "2026-05-26",
+        "2026-06-02",
+        "2026-06-18"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
     "Behavioural Economics": 15,
-    "Complexity Theory": 12,
+    "Complexity Theory": 13,
     "AI Management": 12,
     "Strategy": 14
   },
-  "last_generated": "2026-05-18"
+  "last_generated": "2026-05-19"
 }
