@@ -883,14 +883,27 @@
         "2026-06-02",
         "2026-06-18"
       ]
+    },
+    {
+      "date": "2026-05-20",
+      "topic": "AI Management",
+      "concept": "The Orchestration Inversion",
+      "file": "Microlearning/AI Management/2026-05-20-the-orchestration-inversion.md",
+      "review_dates": [
+        "2026-05-21",
+        "2026-05-23",
+        "2026-05-27",
+        "2026-06-03",
+        "2026-06-19"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
     "Behavioural Economics": 15,
     "Complexity Theory": 13,
-    "AI Management": 12,
+    "AI Management": 13,
     "Strategy": 14
   },
-  "last_generated": "2026-05-19"
+  "last_generated": "2026-05-20"
 }
