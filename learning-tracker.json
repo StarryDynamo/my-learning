@@ -896,6 +896,19 @@
         "2026-06-03",
         "2026-06-19"
       ]
+    },
+    {
+      "date": "2026-05-21",
+      "topic": "Strategy",
+      "concept": "The AI Interface Sovereignty Shift",
+      "file": "Microlearning/Strategy/2026-05-21-the-ai-interface-sovereignty-shift.md",
+      "review_dates": [
+        "2026-05-22",
+        "2026-05-24",
+        "2026-05-28",
+        "2026-06-04",
+        "2026-06-20"
+      ]
     }
   ],
   "topic_counts": {
@@ -903,7 +916,7 @@
     "Behavioural Economics": 15,
     "Complexity Theory": 13,
     "AI Management": 13,
-    "Strategy": 14
+    "Strategy": 15
   },
-  "last_generated": "2026-05-20"
+  "last_generated": "2026-05-21"
 }
