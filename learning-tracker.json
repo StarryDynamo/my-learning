@@ -909,14 +909,27 @@
         "2026-06-04",
         "2026-06-20"
       ]
+    },
+    {
+      "date": "2026-05-22",
+      "topic": "Behavioural Economics",
+      "concept": "The Platform Entrenchment Effect",
+      "file": "Microlearning/Behavioural Economics/2026-05-22-the-platform-entrenchment-effect.md",
+      "review_dates": [
+        "2026-05-23",
+        "2026-05-25",
+        "2026-05-29",
+        "2026-06-05",
+        "2026-06-21"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
-    "Behavioural Economics": 15,
+    "Behavioural Economics": 16,
     "Complexity Theory": 13,
     "AI Management": 13,
     "Strategy": 15
   },
-  "last_generated": "2026-05-21"
+  "last_generated": "2026-05-22"
 }
