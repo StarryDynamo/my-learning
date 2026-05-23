@@ -922,6 +922,19 @@
         "2026-06-05",
         "2026-06-21"
       ]
+    },
+    {
+      "date": "2026-05-23",
+      "topic": "Strategy",
+      "concept": "The Infrastructure Abstraction Reversal",
+      "file": "Microlearning/Strategy/2026-05-23-the-infrastructure-abstraction-reversal.md",
+      "review_dates": [
+        "2026-05-24",
+        "2026-05-26",
+        "2026-05-30",
+        "2026-06-06",
+        "2026-06-22"
+      ]
     }
   ],
   "topic_counts": {
@@ -929,7 +942,7 @@
     "Behavioural Economics": 16,
     "Complexity Theory": 13,
     "AI Management": 13,
-    "Strategy": 15
+    "Strategy": 16
   },
-  "last_generated": "2026-05-22"
+  "last_generated": "2026-05-23"
 }
