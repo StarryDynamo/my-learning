@@ -935,14 +935,27 @@
         "2026-06-06",
         "2026-06-22"
       ]
+    },
+    {
+      "date": "2026-05-24",
+      "topic": "AI Management",
+      "concept": "The Execution Layer Ossification Effect",
+      "file": "Microlearning/AI Management/2026-05-24-the-execution-layer-ossification-effect.md",
+      "review_dates": [
+        "2026-05-25",
+        "2026-05-27",
+        "2026-05-31",
+        "2026-06-07",
+        "2026-06-23"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
     "Behavioural Economics": 16,
     "Complexity Theory": 13,
-    "AI Management": 13,
+    "AI Management": 14,
     "Strategy": 16
   },
-  "last_generated": "2026-05-23"
+  "last_generated": "2026-05-24"
 }
