@@ -961,6 +961,19 @@
         "2026-06-08",
         "2026-06-24"
       ]
+    },
+    {
+      "date": "2026-05-26",
+      "topic": "Strategy",
+      "concept": "The Interface Succession Effect",
+      "file": "Microlearning/Strategy/2026-05-26-the-interface-succession-effect.md",
+      "review_dates": [
+        "2026-05-27",
+        "2026-05-29",
+        "2026-06-02",
+        "2026-06-09",
+        "2026-06-25"
+      ]
     }
   ],
   "topic_counts": {
@@ -968,7 +981,7 @@
     "Behavioural Economics": 16,
     "Complexity Theory": 14,
     "AI Management": 14,
-    "Strategy": 16
+    "Strategy": 17
   },
-  "last_generated": "2026-05-25"
+  "last_generated": "2026-05-26"
 }
