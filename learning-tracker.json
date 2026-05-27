@@ -974,14 +974,27 @@
         "2026-06-09",
         "2026-06-25"
       ]
+    },
+    {
+      "date": "2026-05-27",
+      "topic": "Complexity Theory",
+      "concept": "The Execution Layer Convergence",
+      "file": "Microlearning/Complexity Theory/2026-05-27-the-execution-layer-convergence.md",
+      "review_dates": [
+        "2026-05-28",
+        "2026-05-30",
+        "2026-06-03",
+        "2026-06-10",
+        "2026-06-26"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
     "Behavioural Economics": 16,
-    "Complexity Theory": 14,
+    "Complexity Theory": 15,
     "AI Management": 14,
     "Strategy": 17
   },
-  "last_generated": "2026-05-26"
+  "last_generated": "2026-05-27"
 }
