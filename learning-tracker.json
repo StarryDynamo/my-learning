@@ -987,6 +987,19 @@
         "2026-06-10",
         "2026-06-26"
       ]
+    },
+    {
+      "date": "2026-05-28",
+      "topic": "Strategy",
+      "concept": "The Execution Layer Colonization Effect",
+      "file": "Microlearning/Strategy/2026-05-28-the-execution-layer-colonization-effect.md",
+      "review_dates": [
+        "2026-05-29",
+        "2026-05-31",
+        "2026-06-04",
+        "2026-06-11",
+        "2026-06-27"
+      ]
     }
   ],
   "topic_counts": {
@@ -994,7 +1007,7 @@
     "Behavioural Economics": 16,
     "Complexity Theory": 15,
     "AI Management": 14,
-    "Strategy": 17
+    "Strategy": 18
   },
-  "last_generated": "2026-05-27"
+  "last_generated": "2026-05-28"
 }
