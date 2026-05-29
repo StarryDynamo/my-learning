@@ -1000,14 +1000,27 @@
         "2026-06-11",
         "2026-06-27"
       ]
+    },
+    {
+      "date": "2026-05-29",
+      "topic": "Behavioural Economics",
+      "concept": "The Competence Paradox",
+      "file": "Microlearning/Behavioural Economics/2026-05-29-the-competence-paradox.md",
+      "review_dates": [
+        "2026-05-30",
+        "2026-06-01",
+        "2026-06-05",
+        "2026-06-12",
+        "2026-06-28"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
-    "Behavioural Economics": 16,
+    "Behavioural Economics": 17,
     "Complexity Theory": 15,
     "AI Management": 14,
     "Strategy": 18
   },
-  "last_generated": "2026-05-28"
+  "last_generated": "2026-05-29"
 }
