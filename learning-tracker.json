@@ -1013,14 +1013,27 @@
         "2026-06-12",
         "2026-06-28"
       ]
+    },
+    {
+      "date": "2026-05-30",
+      "topic": "AI Management",
+      "concept": "The Interface Absorption Effect",
+      "file": "Microlearning/AI Management/2026-05-30-the-interface-absorption-effect.md",
+      "review_dates": [
+        "2026-05-31",
+        "2026-06-02",
+        "2026-06-06",
+        "2026-06-13",
+        "2026-06-29"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 14,
     "Behavioural Economics": 17,
     "Complexity Theory": 15,
-    "AI Management": 14,
+    "AI Management": 15,
     "Strategy": 18
   },
-  "last_generated": "2026-05-29"
+  "last_generated": "2026-05-30"
 }
