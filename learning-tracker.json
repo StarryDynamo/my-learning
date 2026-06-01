@@ -1039,14 +1039,27 @@
         "2026-06-14",
         "2026-06-30"
       ]
+    },
+    {
+      "date": "2026-06-01",
+      "topic": "Complexity Theory",
+      "concept": "The Interface Consolidation Cascade",
+      "file": "Microlearning/Complexity Theory/2026-06-01-the-interface-consolidation-cascade.md",
+      "review_dates": [
+        "2026-06-02",
+        "2026-06-04",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-07-01"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 15,
     "Behavioural Economics": 17,
-    "Complexity Theory": 15,
+    "Complexity Theory": 16,
     "AI Management": 15,
     "Strategy": 18
   },
-  "last_generated": "2026-05-31"
+  "last_generated": "2026-06-01"
 }
