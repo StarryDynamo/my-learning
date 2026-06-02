@@ -1052,6 +1052,19 @@
         "2026-06-15",
         "2026-07-01"
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "topic": "Strategy",
+      "concept": "The Platform Gravity Inversion",
+      "file": "Microlearning/Strategy/2026-06-02-the-platform-gravity-inversion.md",
+      "review_dates": [
+        "2026-06-03",
+        "2026-06-05",
+        "2026-06-09",
+        "2026-06-16",
+        "2026-07-02"
+      ]
     }
   ],
   "topic_counts": {
@@ -1059,7 +1072,7 @@
     "Behavioural Economics": 17,
     "Complexity Theory": 16,
     "AI Management": 15,
-    "Strategy": 18
+    "Strategy": 19
   },
-  "last_generated": "2026-06-01"
+  "last_generated": "2026-06-02"
 }
