@@ -1065,14 +1065,27 @@
         "2026-06-16",
         "2026-07-02"
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "topic": "Learning Science",
+      "concept": "The Consolidation Window Effect",
+      "file": "Microlearning/Learning Science/2026-06-03-the-consolidation-window-effect.md",
+      "review_dates": [
+        "2026-06-04",
+        "2026-06-06",
+        "2026-06-10",
+        "2026-06-17",
+        "2026-07-03"
+      ]
     }
   ],
   "topic_counts": {
-    "Learning Science": 15,
+    "Learning Science": 16,
     "Behavioural Economics": 17,
     "Complexity Theory": 16,
     "AI Management": 15,
     "Strategy": 19
   },
-  "last_generated": "2026-06-02"
+  "last_generated": "2026-06-03"
 }
