@@ -1130,14 +1130,27 @@
         "2026-06-21",
         "2026-07-07"
       ]
+    },
+    {
+      "date": "2026-06-08",
+      "topic": "Complexity Theory",
+      "concept": "The Orchestration Bottleneck Paradox",
+      "file": "Microlearning/Complexity Theory/2026-06-08-the-orchestration-bottleneck-paradox.md",
+      "review_dates": [
+        "2026-06-09",
+        "2026-06-11",
+        "2026-06-15",
+        "2026-06-22",
+        "2026-07-08"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 18,
     "Behavioural Economics": 17,
-    "Complexity Theory": 16,
+    "Complexity Theory": 17,
     "AI Management": 17,
     "Strategy": 19
   },
-  "last_generated": "2026-06-07"
+  "last_generated": "2026-06-08"
 }
