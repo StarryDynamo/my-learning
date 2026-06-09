@@ -1143,14 +1143,27 @@
         "2026-06-22",
         "2026-07-08"
       ]
+    },
+    {
+      "date": "2026-06-09",
+      "topic": "Behavioural Economics",
+      "concept": "The Automation Complacency Trap",
+      "file": "Microlearning/Behavioural Economics/2026-06-09-the-automation-complacency-trap.md",
+      "review_dates": [
+        "2026-06-10",
+        "2026-06-12",
+        "2026-06-16",
+        "2026-06-23",
+        "2026-07-09"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 18,
-    "Behavioural Economics": 17,
+    "Behavioural Economics": 18,
     "Complexity Theory": 17,
     "AI Management": 17,
     "Strategy": 19
   },
-  "last_generated": "2026-06-08"
+  "last_generated": "2026-06-09"
 }
