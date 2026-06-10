@@ -1156,14 +1156,27 @@
         "2026-06-23",
         "2026-07-09"
       ]
+    },
+    {
+      "date": "2026-06-10",
+      "topic": "Complexity Theory",
+      "concept": "The Coordination Tax Explosion",
+      "file": "Microlearning/Complexity Theory/2026-06-10-the-coordination-tax-explosion.md",
+      "review_dates": [
+        "2026-06-11",
+        "2026-06-13",
+        "2026-06-17",
+        "2026-06-24",
+        "2026-07-10"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 18,
     "Behavioural Economics": 18,
-    "Complexity Theory": 17,
+    "Complexity Theory": 18,
     "AI Management": 17,
     "Strategy": 19
   },
-  "last_generated": "2026-06-09"
+  "last_generated": "2026-06-10"
 }
