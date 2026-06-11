@@ -1169,14 +1169,27 @@
         "2026-06-24",
         "2026-07-10"
       ]
+    },
+    {
+      "date": "2026-06-11",
+      "topic": "AI Management",
+      "concept": "The Context Window Compression Trap",
+      "file": "Microlearning/AI Management/2026-06-11-the-context-window-compression-trap.md",
+      "review_dates": [
+        "2026-06-12",
+        "2026-06-14",
+        "2026-06-18",
+        "2026-06-25",
+        "2026-07-11"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 18,
     "Behavioural Economics": 18,
     "Complexity Theory": 18,
-    "AI Management": 17,
+    "AI Management": 18,
     "Strategy": 19
   },
-  "last_generated": "2026-06-10"
+  "last_generated": "2026-06-11"
 }
