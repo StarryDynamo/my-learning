@@ -1182,6 +1182,19 @@
         "2026-06-25",
         "2026-07-11"
       ]
+    },
+    {
+      "date": "2026-06-12",
+      "topic": "Strategy",
+      "concept": "The Execution Layer Inversion",
+      "file": "Microlearning/Strategy/2026-06-12-the-execution-layer-inversion.md",
+      "review_dates": [
+        "2026-06-13",
+        "2026-06-15",
+        "2026-06-19",
+        "2026-06-26",
+        "2026-07-12"
+      ]
     }
   ],
   "topic_counts": {
@@ -1189,7 +1202,7 @@
     "Behavioural Economics": 18,
     "Complexity Theory": 18,
     "AI Management": 18,
-    "Strategy": 19
+    "Strategy": 20
   },
-  "last_generated": "2026-06-11"
+  "last_generated": "2026-06-12"
 }
