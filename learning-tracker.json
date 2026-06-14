@@ -1208,14 +1208,27 @@
         "2026-06-27",
         "2026-07-13"
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "topic": "Behavioural Economics",
+      "concept": "The Delegation Premium Paradox",
+      "file": "Microlearning/Behavioural Economics/2026-06-14-the-delegation-premium-paradox.md",
+      "review_dates": [
+        "2026-06-15",
+        "2026-06-17",
+        "2026-06-21",
+        "2026-06-28",
+        "2026-07-14"
+      ]
     }
   ],
   "topic_counts": {
     "Learning Science": 18,
-    "Behavioural Economics": 18,
+    "Behavioural Economics": 19,
     "Complexity Theory": 18,
     "AI Management": 19,
     "Strategy": 20
   },
-  "last_generated": "2026-06-13"
+  "last_generated": "2026-06-14"
 }
