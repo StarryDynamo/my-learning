@@ -52,12 +52,14 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MODE: ${{ inputs.mode || 'daily' }}
-          TOPIC_OVERRIDE: ${{ inputs.topic || 'auto' }}
+          MODE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.mode || 'daily' }}
+          TOPIC_OVERRIDE: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.topic || 'auto' }}
         run: python generate.py
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🧠 ${{ steps.generate.outputs.topic || 'Microlearning' }}: ${{ steps.generate.outputs.concept || 'daily note' }}"
-          file_pattern: "Microlearning/ learning-tracker.json"
+          file_pattern: |
+            Microlearning/**/*.md
+            learning-tracker.json

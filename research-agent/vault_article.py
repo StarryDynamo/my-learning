@@ -12,9 +12,9 @@ import textwrap
 
 from scanner import ResearchItem
 
-# Obsidian vault: set OBSIDIAN_VAULT and optional OBSIDIAN_RESEARCH_FOLDER in env
+# Obsidian vault: set OBSIDIAN_VAULT (or legacy VAULT_PATH) and optional OBSIDIAN_RESEARCH_FOLDER in env
 _DEFAULT_VAULT = pathlib.Path(r"C:\Users\heave\OneDrive\Documents\Tom's Vault")
-_raw = os.environ.get("OBSIDIAN_VAULT", "")
+_raw = (os.environ.get("OBSIDIAN_VAULT") or os.environ.get("VAULT_PATH") or "").strip()
 VAULT_PATH = pathlib.Path(_raw) if _raw else _DEFAULT_VAULT
 VAULT_FOLDER = os.environ.get("OBSIDIAN_RESEARCH_FOLDER", "Research Digest")
 
